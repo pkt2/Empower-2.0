@@ -1,0 +1,63 @@
+.navbar-custom {
+    background-color: #93E9BE; /*background color of Navabar*/
+    text-align: center;
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+    color: #304087;
+    background-color: #b5bdbb; /* add background-color to active links */
+
+}  
+
+.nav-link2:hover {
+	color: #304087;
+	background-color: #93E9BE
+}
+
+.navbar-brand:hover
+{
+    /*background-color: #FFD700*/;
+}
+
+.noHover{
+    pointer-events: none;
+}
+
+.footer {
+   
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: lightgrey;
+   color: #304087;
+   text-align: left;
+}
+
+  .container1
+{
+    position: relative;
+    border: 1.5px solid #626060;
+    box-sizing: border-box;
+}
+
+.container1,
+.container1 .date {
+    padding: 5px;
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+.container1 .date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.container1 marquee {
+    line-height: 1.5;
+}
+
+.container1 marquee p {
+    margin: 0;
+}
